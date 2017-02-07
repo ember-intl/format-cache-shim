@@ -11,8 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/jasonmit/ember-intl/tree/master/packages/ember-intl-format-cache",
-  "homepage": "https://github.com/jasonmit/ember-intl",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jasonmit/ember-intl-format-cache.git"
+  },
+  "homepage": "https://github.com/jasonmit/ember-intl-format-cache",
   "engines": {
     "node": ">= 0.10.0"
   },
