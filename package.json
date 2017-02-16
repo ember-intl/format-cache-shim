@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jasonmit/ember-intl-format-cache.git"
+    "url": "http://github.com/ember-intl/ember-intl-format-cache.git"
   },
-  "homepage": "https://github.com/jasonmit/ember-intl-format-cache",
+  "homepage": "https://github.com/ember-intl/ember-intl-format-cache",
   "engines": {
     "node": ">= 0.10.0"
   },
