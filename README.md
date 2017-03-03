@@ -1,5 +1,7 @@
 # Ember-intl-format-cache
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ember-intl/ember-intl-format-cache.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
