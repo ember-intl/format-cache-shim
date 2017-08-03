@@ -2,7 +2,6 @@
 'use strict';
 
 const path = require('path');
-const funnel = require('broccoli-funnel');
 const mergeTrees = require('broccoli-merge-trees');
 const UnwatchedDir = require('broccoli-source').UnwatchedDir;
 
@@ -12,9 +11,9 @@ module.exports = {
   name: 'intl-format-cache',
 
   treeForAddon(tree) {
-    let formatCacheTree = funnel(new UnwatchedDir(sourcePath));
-    let trees = mergeTrees([formatCacheTree, tree], { overwrite: true });
+    let formatCacheTree = new UnwatchedDir(sourcePath);
+    let addonTree = mergeTrees([formatCacheTree, tree], { overwrite: true });
 
-    return this._super.treeForAddon.call(this, trees);
+    return this._super.treeForAddon.call(this, addonTree);
   }
 };
